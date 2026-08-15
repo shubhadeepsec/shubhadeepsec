@@ -34,7 +34,7 @@
 
 ---
 
-### 🐍 CONTRIBUTION SNAKE
+### 🐍 CONTRIBUTION
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhadeepsec/shubhadeepsec/output/github-snake-dark.svg">

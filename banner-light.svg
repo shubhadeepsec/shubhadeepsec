@@ -1,0 +1,190 @@
+<svg width="1280" height="740" viewBox="0 0 1280 740" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#fff0f0"/>
+      <stop offset="100%" stop-color="#fdeaea"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3b3b"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ff3b3b"/>
+      <animate attributeName="x1" values="-30%;100%;-30%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="70%;200%;70%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="roundedFrame"><rect x="0" y="0" width="1280" height="740" rx="18"/></clipPath>
+    <clipPath id="hologramClip"><rect x="780" y="120" width="440" height="560" rx="14"/></clipPath>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b3b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff3b3b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff3b3b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <rect width="1280" height="740" fill="url(#bgGrad)"/>
+
+    <circle cx="1100" cy="90" r="140" fill="#ff3b3b" opacity="0.10">
+      <animate attributeName="r" values="130;150;130" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="650" r="120" fill="#8b0000" opacity="0.10">
+      <animate attributeName="r" values="110;130;110" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="517" cy="651" r="4" fill="#ff3b3b" opacity="0"><animate attributeName="opacity" values="0;0.6;0" dur="5.8s" begin="3.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-197" dur="5.8s" begin="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="56" cy="620" r="5" fill="#8b0000" opacity="0"><animate attributeName="opacity" values="0;0.64;0" dur="6.4s" begin="1.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-170" dur="6.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="338" cy="559" r="4" fill="#ff3b3b" opacity="0"><animate attributeName="opacity" values="0;0.65;0" dur="7.5s" begin="3.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-140" dur="7.5s" begin="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1240" cy="510" r="5" fill="#8b0000" opacity="0"><animate attributeName="opacity" values="0;0.46;0" dur="7.2s" begin="4.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-211" dur="7.2s" begin="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="904" cy="601" r="6" fill="#ff3b3b" opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="7.9s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-137" dur="7.9s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1043" cy="555" r="5" fill="#ff6b6b" opacity="0"><animate attributeName="opacity" values="0;0.6;0" dur="7.9s" begin="2.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-173" dur="7.9s" begin="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1068" cy="598" r="5" fill="#ff6b6b" opacity="0"><animate attributeName="opacity" values="0;0.44;0" dur="6.4s" begin="2.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-207" dur="6.4s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="88" cy="571" r="4" fill="#ff3b3b" opacity="0"><animate attributeName="opacity" values="0;0.57;0" dur="6.9s" begin="2.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-211" dur="6.9s" begin="2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="462" cy="662" r="5" fill="#8b0000" opacity="0"><animate attributeName="opacity" values="0;0.69;0" dur="5.5s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-131" dur="5.5s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="734" cy="517" r="6" fill="#8b0000" opacity="0"><animate attributeName="opacity" values="0;0.52;0" dur="7.6s" begin="0.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-135" dur="7.6s" begin="0.1s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="654" r="3" fill="#ff6b6b" opacity="0"><animate attributeName="opacity" values="0;0.57;0" dur="5.8s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-184" dur="5.8s" begin="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="513" cy="509" r="5" fill="#3a0a0a" opacity="0"><animate attributeName="opacity" values="0;0.56;0" dur="4.5s" begin="0.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-172" dur="4.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="627" cy="656" r="5" fill="#ff6b6b" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="5.0s" begin="0.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-166" dur="5.0s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="313" cy="596" r="6" fill="#ff3b3b" opacity="0"><animate attributeName="opacity" values="0;0.61;0" dur="6.1s" begin="3.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 0,-199" dur="6.1s" begin="3.1s" repeatCount="indefinite"/></circle>
+
+    <rect x="30" y="16" width="480" height="112" rx="10" fill="#ffffff" stroke="#f0c9c9" stroke-width="1"/>
+    <circle cx="50" cy="30" r="4" fill="#ff5f57"/>
+    <circle cx="64" cy="30" r="4" fill="#febc2e"/>
+    <circle cx="78" cy="30" r="4" fill="#28c840"/>
+    <g filter="url(#softGlow)">
+    <text x="44" y="40" font-family="Consolas,'Courier New',monospace" font-size="14" fill="#ff3b3b">$ whoami</text>
+    <rect y="28" height="15" fill="#ffffff"><animate id="tl0x" attributeName="x" from="44" to="112.8" dur="0.36s" begin="0s;tl3x.end+2.5s" fill="freeze"/><animate attributeName="width" from="68.8" to="0" dur="0.36s" begin="0s;tl3x.end+2.5s" fill="freeze"/></rect>
+    <text x="44" y="62" font-family="Consolas,'Courier New',monospace" font-size="14" fill="#3a0a0a">  shubhadeep_mahapatra // malrobust</text>
+    <rect y="50" height="15" fill="#ffffff"><animate id="tl1x" attributeName="x" from="44" to="345.0" dur="1.57s" begin="tl0x.end+0.15s" fill="freeze"/><animate attributeName="width" from="301.0" to="0" dur="1.57s" begin="tl0x.end+0.15s" fill="freeze"/></rect>
+    <text x="44" y="84" font-family="Consolas,'Courier New',monospace" font-size="14" fill="#ff3b3b">$ cat mission.txt</text>
+    <rect y="72" height="15" fill="#ffffff"><animate id="tl2x" attributeName="x" from="44" to="190.2" dur="0.77s" begin="tl1x.end+0.15s" fill="freeze"/><animate attributeName="width" from="146.2" to="0" dur="0.77s" begin="tl1x.end+0.15s" fill="freeze"/></rect>
+    <text x="44" y="106" font-family="Consolas,'Courier New',monospace" font-size="14" fill="#8b0000">  break access control. report it. fix it.</text>
+    <rect y="94" height="15" fill="#ffffff"><animate id="tl3x" attributeName="x" from="44" to="405.2" dur="1.89s" begin="tl2x.end+0.15s" fill="freeze"/><animate attributeName="width" from="361.2" to="0" dur="1.89s" begin="tl2x.end+0.15s" fill="freeze"/></rect>
+    </g>
+
+    <g filter="url(#glow)">
+<text x="44" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">S<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.8s" fill="freeze"/></text>
+    <text x="84" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">H<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.8499999999999996s" fill="freeze"/></text>
+    <text x="124" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">U<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.9s" fill="freeze"/></text>
+    <text x="164" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">B<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.9499999999999997s" fill="freeze"/></text>
+    <text x="204" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">H<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.0s" fill="freeze"/></text>
+    <text x="244" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">A<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.05s" fill="freeze"/></text>
+    <text x="284" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">D<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.0999999999999996s" fill="freeze"/></text>
+    <text x="324" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">E<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.15s" fill="freeze"/></text>
+    <text x="364" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">E<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.1999999999999997s" fill="freeze"/></text>
+    <text x="404" y="195" font-family="Arial Black,'Segoe UI',Arial,sans-serif" font-weight="900" font-size="46" fill="url(#nameGrad)" letter-spacing="1" opacity="0">P<animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="3.25s" fill="freeze"/></text>
+    </g>
+    <text x="44" y="222" font-family="Consolas,monospace" font-size="16" fill="#3a0a0a" opacity="0" letter-spacing="2">
+      MAHAPATRA <tspan fill="#ff3b3b">·</tspan> MALROBUST
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="4.2s" fill="freeze"/>
+    </text>
+<text x="44" y="255" font-family="Consolas,monospace" font-weight="bold" font-size="16" fill="#ff6b6b" opacity="0">CYBERSECURITY LEARNER<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0;0.0375;0.2125;0.25;1" dur="8.0s" begin="3.4s" repeatCount="indefinite"/></text>
+    <text x="44" y="255" font-family="Consolas,monospace" font-weight="bold" font-size="16" fill="#ff6b6b" opacity="0">BUG BOUNTY HUNTER<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.2875;0.4625;0.5;1" dur="8.0s" begin="3.4s" repeatCount="indefinite"/></text>
+    <text x="44" y="255" font-family="Consolas,monospace" font-weight="bold" font-size="16" fill="#ff6b6b" opacity="0">WEB APP SECURITY RESEARCHER<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.5375;0.7125;0.75;1" dur="8.0s" begin="3.4s" repeatCount="indefinite"/></text>
+    <text x="44" y="255" font-family="Consolas,monospace" font-weight="bold" font-size="16" fill="#ff6b6b" opacity="0">OWASP TOP 10 SPECIALIST<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.75;0.7875;0.9625;1.0;1" dur="8.0s" begin="3.4s" repeatCount="indefinite"/></text>
+
+    <rect x="44" y="280" width="560" height="56" rx="8" fill="#ffffff" stroke="#f0c9c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="4.6s" fill="freeze"/>
+    </rect>
+    <text x="60" y="314" font-family="Georgia,serif" font-style="italic" font-size="15" fill="#8b0000" opacity="0">
+      "Break it. Report it. Fix it."
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="5.1s" fill="freeze"/>
+    </text>
+
+    <g font-family="Consolas,monospace" font-size="12" font-weight="600">
+      <rect x="44" y="360" width="68" height="26" rx="13" fill="#ffe5e5" opacity="0"><animate attributeName="opacity" to="1" dur="0.4s" begin="5.4s" fill="freeze"/></rect>
+      <text x="78" y="377" text-anchor="middle" fill="#ff6b6b" opacity="0">Python<animate attributeName="opacity" to="1" dur="0.4s" begin="5.4s" fill="freeze"/></text>
+
+      <rect x="120" y="360" width="58" height="26" rx="13" fill="#ffe5e5" opacity="0"><animate attributeName="opacity" to="1" dur="0.4s" begin="5.55s" fill="freeze"/></rect>
+      <text x="149" y="377" text-anchor="middle" fill="#3a0a0a" opacity="0">Bash<animate attributeName="opacity" to="1" dur="0.4s" begin="5.55s" fill="freeze"/></text>
+
+      <rect x="186" y="360" width="88" height="26" rx="13" fill="#ffe5e5" opacity="0"><animate attributeName="opacity" to="1" dur="0.4s" begin="5.7s" fill="freeze"/></rect>
+      <text x="230" y="377" text-anchor="middle" fill="#ff3b3b" opacity="0">Burp Suite<animate attributeName="opacity" to="1" dur="0.4s" begin="5.7s" fill="freeze"/></text>
+
+      <rect x="282" y="360" width="60" height="26" rx="13" fill="#ffe5e5" opacity="0"><animate attributeName="opacity" to="1" dur="0.4s" begin="5.85s" fill="freeze"/></rect>
+      <text x="312" y="377" text-anchor="middle" fill="#ff6b6b" opacity="0">Nmap<animate attributeName="opacity" to="1" dur="0.4s" begin="5.85s" fill="freeze"/></text>
+
+      <rect x="350" y="360" width="80" height="26" rx="13" fill="#ffe5e5" opacity="0"><animate attributeName="opacity" to="1" dur="0.4s" begin="6.0s" fill="freeze"/></rect>
+      <text x="390" y="377" text-anchor="middle" fill="#3a0a0a" opacity="0">Kali Linux<animate attributeName="opacity" to="1" dur="0.4s" begin="6.0s" fill="freeze"/></text>
+    </g>
+
+    <g font-family="Consolas,monospace" font-size="13" fill="#3a0a0a" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="6.3s" fill="freeze"/>
+      <text x="44" y="420">&#128269; Deep-diving Broken Access Control &amp; IDOR</text>
+      <text x="44" y="441">&#128737;&#65039; Testing REST APIs for BOLA / BFLA flaws</text>
+      <text x="44" y="462">&#129302; Building autonomous recon tooling in Python</text>
+      <text x="44" y="483">&#127942; TryHackMe Top 5% &#183; 100+ labs completed</text>
+    </g>
+
+    <g font-family="Consolas,monospace" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="6.6s" fill="freeze"/>
+      <rect x="44" y="505" width="120" height="54" rx="8" fill="#ffffff" stroke="#f0c9c9"/>
+      <text x="104" y="528" text-anchor="middle" font-size="18" font-weight="bold" fill="#ff3b3b">2</text>
+      <text x="104" y="546" text-anchor="middle" font-size="10" fill="#8b0000">Repositories</text>
+
+      <rect x="174" y="505" width="120" height="54" rx="8" fill="#ffffff" stroke="#f0c9c9"/>
+      <text x="234" y="528" text-anchor="middle" font-size="18" font-weight="bold" fill="#ff3b3b">2</text>
+      <text x="234" y="546" text-anchor="middle" font-size="10" fill="#8b0000">Followers</text>
+
+      <rect x="304" y="505" width="180" height="54" rx="8" fill="#ffffff" stroke="#f0c9c9"/>
+      <text x="394" y="528" text-anchor="middle" font-size="18" font-weight="bold" fill="#ff3b3b">Top 5%</text>
+      <text x="394" y="546" text-anchor="middle" font-size="10" fill="#8b0000">TryHackMe Rank</text>
+    </g>
+
+    <rect x="680" y="440" width="290" height="140" rx="10" fill="url(#cardGrad)" stroke="#f0c9c9" opacity="0">
+      <animate attributeName="opacity" to="1" dur="0.5s" begin="6.5s" fill="freeze"/>
+    </rect>
+    <circle cx="700" cy="456" r="4" fill="#ff5f57"/>
+    <circle cx="712" cy="456" r="4" fill="#febc2e"/>
+    <circle cx="724" cy="456" r="4" fill="#28c840"/>
+    <text x="700" y="470" font-family="Consolas,monospace" font-size="13" fill="#ff6b6b">function huntBugs() {</text>
+    <rect y="459" height="14" fill="#ffffff"><animate id="cl0x" attributeName="x" from="700" to="859.6" dur="1.05s" begin="6.5s" fill="freeze"/><animate attributeName="width" from="159.6" to="0" dur="1.05s" begin="6.5s" fill="freeze"/></rect>
+    <text x="700" y="490" font-family="Consolas,monospace" font-size="13" fill="#3a0a0a">  return targets</text>
+    <rect y="479" height="14" fill="#ffffff"><animate id="cl1x" attributeName="x" from="700" to="821.6" dur="0.8s" begin="cl0x.end+0.12s" fill="freeze"/><animate attributeName="width" from="121.6" to="0" dur="0.8s" begin="cl0x.end+0.12s" fill="freeze"/></rect>
+    <text x="700" y="510" font-family="Consolas,monospace" font-size="13" fill="#3a0a0a">    .filter(inScope)</text>
+    <rect y="499" height="14" fill="#ffffff"><animate id="cl2x" attributeName="x" from="700" to="852.0" dur="1.0s" begin="cl1x.end+0.12s" fill="freeze"/><animate attributeName="width" from="152.0" to="0" dur="1.0s" begin="cl1x.end+0.12s" fill="freeze"/></rect>
+    <text x="700" y="530" font-family="Consolas,monospace" font-size="13" fill="#ff3b3b">    .map(findIDOR);</text>
+    <rect y="519" height="14" fill="#ffffff"><animate id="cl3x" attributeName="x" from="700" to="844.4" dur="0.95s" begin="cl2x.end+0.12s" fill="freeze"/><animate attributeName="width" from="144.4" to="0" dur="0.95s" begin="cl2x.end+0.12s" fill="freeze"/></rect>
+    <text x="700" y="550" font-family="Consolas,monospace" font-size="13" fill="#ff6b6b">}</text>
+    <rect y="539" height="14" fill="#ffffff"><animate id="cl4x" attributeName="x" from="700" to="707.6" dur="0.3s" begin="cl3x.end+0.12s" fill="freeze"/><animate attributeName="width" from="7.6" to="0" dur="0.3s" begin="cl3x.end+0.12s" fill="freeze"/></rect>
+
+    <text x="960" y="80" text-anchor="middle" font-family="Arial Black,'Segoe UI',sans-serif" font-weight="900" font-size="24" fill="#ff3b3b" filter="url(#glow)">
+      KEEP HACKING &#183; KEEP GROWING
+      <animate attributeName="opacity" values="1;1;1;0.75;1;1;1;0.6;1;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="780" y="120" width="440" height="300" rx="14" fill="#ffffff" stroke="#f0c9c9" stroke-width="1.5"/>
+    <g clip-path="url(#hologramClip)">
+      <g stroke="#ff3b3b" stroke-width="2" fill="none" opacity="0.9">
+        <circle cx="1000" cy="220" r="46"/>
+        <path d="M930 340 Q1000 280 1070 340 L1070 420 L930 420 Z"/>
+        <rect x="955" y="300" width="90" height="60" rx="6" fill="#ffe5e5" stroke="#3a0a0a"/>
+        <line x1="960" y1="315" x2="1040" y2="315" stroke="#3a0a0a" stroke-width="1"/>
+        <line x1="960" y1="330" x2="1020" y2="330" stroke="#3a0a0a" stroke-width="1"/>
+        <line x1="960" y1="345" x2="1030" y2="345" stroke="#3a0a0a" stroke-width="1"/>
+      </g>
+      <rect x="780" y="120" width="440" height="300" fill="#ffffff">
+        <animate attributeName="height" from="300" to="0" dur="1.4s" begin="1s" fill="freeze"/>
+      </rect>
+      <rect x="780" y="120" width="440" height="14" fill="url(#scanGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,300;0,0" dur="3.5s" begin="2.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="1000" y="400" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#ff6b6b" opacity="0">
+      [ hologram reconstruction complete ]
+      <animate attributeName="opacity" to="1" dur="0.5s" begin="2.4s" fill="freeze"/>
+    </text>
+
+  </g>
+</svg>
